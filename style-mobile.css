@@ -1,0 +1,62 @@
+@media(max-width: 640px){
+
+    #WA{
+        bottom: 15px;
+        right: 25px;
+    }
+
+    #WA>img{
+        width: 50px;
+    }
+
+    .wallpaper-conteiner{
+        height: 70vh;
+    }
+
+    .caption{
+        top: 30%;
+        left: 60%;
+        transform: translate(-70%,-20%);
+    }
+
+
+    .section{
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #jobs{
+        text-align: center;
+    }
+
+    #profilePic{
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+    }
+    #aboutMe-text {
+        width: 100%;
+        margin-left: 0;
+    }
+    #aboutMe-tittle{
+        order: 2;
+    }
+    #aboutMe-p{
+        order: 3;
+    }
+    #rrss{
+        order: 1;
+    }
+    .img-rrss{
+        margin: 15px;
+    }
+    .service{
+        width: 125px;
+        height: 90px;
+        margin: 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
