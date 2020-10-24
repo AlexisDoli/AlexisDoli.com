@@ -110,11 +110,15 @@ span{
     background-color: rgb(10, 33, 65);
 }
 .peach-bck{
-    background-color:#FCDEBE; ;
+    background-color:#FCDEBE;
+}
+.peach-bck>h2{
+    color:  #5e5760;
 }
 
 img{
     width: 100%;
+    height: auto    ;
 }
 .img-job{
     height: auto;
@@ -182,6 +186,16 @@ img{
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("./AlexisDoli-mentor.jpeg");
 }
 
+.img-reward{
+    width: 100px;
+}
+
+.reward-text{
+    width: 270px;
+    padding: 10px;
+}
+
 footer{
     background-color: #1e1d23;
+    color:  #5e5760;
 }

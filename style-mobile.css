@@ -59,4 +59,8 @@
         font-size: 10px;
         text-align: center;
     }
+    #rewards-conteiner>div{
+        flex-direction:column-reverse;
+        font-size: 12px;
+    }
 }
