@@ -55,7 +55,7 @@ h2{
  .wallpaper{
     width: 100%;
     height: 100%;
-    background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("./26000944_2026766810936416_4978532810950128081_n.jpg");
+    background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("../img/26000944_2026766810936416_4978532810950128081_n.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,7 @@ img{
 #profilePic{
     width: 350px;
     height: 350px;
-    background-image: url("./profilePic.jpg");
+    background-image: url("../img/profilePic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,25 +165,25 @@ img{
 }
 
 #gestor-de-proyectos{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("./gestion-de-proyectos.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("../img/gestion-de-proyectos.jpg");
 }
 
 #organizar-eventos{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("./polython-google.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("../img/polython-google.jpg");
 }
 
 #talleres{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("./AlexisDoli-impartiendo-taller.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("../img/AlexisDoli-impartiendo-taller.jpg");
 }
 
 #speaker{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("./AlexisDoli-speaker.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("../img/AlexisDoli-speaker.jpg");
 }
 #consultor-ti{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("./AlexisDoli-soldando.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("../img/AlexisDoli-soldando.jpg");
 }
 #mentorias{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("./AlexisDoli-mentor.jpeg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("../img/AlexisDoli-mentor.jpeg");
 }
 
 .img-reward{
