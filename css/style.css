@@ -20,15 +20,31 @@ nav{
     justify-content: space-between;
 }
 
-#img-nav{
+#nav-txt{
+    display: none;
+    font-size: 11px;
+}
+
+#ico-nav{
     height: auto;
     width: 48px;
     filter: invert(100%);
     margin-left: 50px;
 }
+#ico-nav>p{
+    display: none;
+}
+#nav-links>a>img{
+    display: none;
+    filter: invert(100%);
+}
 
 #nav-links{
     margin-right: 50px;
+}
+
+#WA-nav{
+    display: none;
 }
 
 a{

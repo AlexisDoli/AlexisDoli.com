@@ -25,11 +25,29 @@
     <body>
 
         <nav id="nav" class="flex row">
-            <div id="img-nav" class="flex center">
-                <img src="./img/ico.png" alt="Icono de AlexisDoli">
+            <div id="ico-nav" class="flex center">
+                <img src="./img/ico.png" class="img-nav" alt="Icono de AlexisDoli">
+                <p class="nav-txt">
+                    Inicio
+                </p>
             </div>
             <div id="nav-links" class="flex row center">
-                <a href="#services">Servicios</a>
+                <a href="#services" class="flex center">
+                    <img src="./img/support-services.png" class="img-nav" alt="">
+                    <!--<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>-->
+                    <p>
+                        Servicios
+                    </p>
+                </a>
+            </div>
+            <div id="WA-nav" class="flex row center">
+                <a href="https://wa.me/5215530873265" class="flex center">
+                    <img src="./img/whatsapp.png" class="img-nav" alt="">
+                    <!--<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>-->
+                    <p>
+                        Contacto
+                    </p>
+                </a>
             </div>
         </nav>
 
@@ -137,11 +155,13 @@
                         Organizar eventos
                     </h3>
                 </div>
-                <div id="talleres" class="service flex center">
-                    <h3>
-                        Talleres
-                    </h3>
-                </div>
+                <a href="./servicios/talleres-webinars.html">
+                    <div id="talleres" class="service flex center">
+                        <h3>
+                            Talleres
+                        </h3>
+                    </div>
+                </a>
                 <div id="speaker" class="service flex center">
                     <h3>
                         Speaker
@@ -195,9 +215,18 @@
             </div>
         </section>
 
+        <section class="section flex center blue-bck blank-txt">
+            <h2>
+                Tienes algún proyecto? <span></span>
+            </h2>
+            <p>
+                Contacta para cotizar
+            </p>
+        </section>
+
         <footer class="flex center">
             <div>
-                AlexisDoli 2020
+                AlexisDoli© 2020
             </div>
         </footer>
     </body>

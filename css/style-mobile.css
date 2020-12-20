@@ -1,5 +1,36 @@
 @media(max-width: 640px){
 
+    nav{
+        height: 72px;
+        top: auto;
+        bottom: 0;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    #nav-txt{
+        display: unset;
+    }
+    .img-nav{
+        width: 32px;
+    }
+    #ico-nav{
+        margin-left: 0px;
+    }
+    #ico-nav>p{
+        display: unset;
+    
+    }
+    #nav-links>a>img{
+        display: unset;
+    }
+    #nav-links{
+        margin-right: 0px;
+    }
+    #WA-nav{
+        display: unset;
+    }
+    /*
     #WA{
         bottom: 15px;
         right: 25px;
@@ -8,7 +39,11 @@
     #WA>img{
         width: 50px;
     }
-
+    Borrar si funciona
+    */
+    #WA{
+        display: none;
+    }
     .wallpaper-conteiner{
         height: 70vh;
     }
@@ -62,5 +97,8 @@
     #rewards-conteiner>div{
         flex-direction:column-reverse;
         font-size: 12px;
+    }
+    footer{
+        padding-bottom: 72px;
     }
 }
